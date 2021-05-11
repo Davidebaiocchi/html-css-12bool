@@ -11,6 +11,7 @@
 .container {
     /* è la versione mobile e lasciamo il container al 100% */
     width: 100%;
+    max-width: 1180px;
     margin: 0 auto;
 } 
 
@@ -23,7 +24,7 @@
     flex: 0 0 auto;
 } 
 
-  /* 12 System */
+/* 12 System */
 .col-xs {
     flex-grow: 1;
     flex-basis: 0;
